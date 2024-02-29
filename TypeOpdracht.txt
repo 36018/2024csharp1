@@ -1,16 +1,22 @@
-public class PlayerContext
-{
-    public Room room;
-    public PlayerSprite player;
-    internal bool noDoor = false;
-    internal int camX;
-    internal int camY;
-    internal readonly KeyBind[] keysdown = new KeyBind[5];
-    internal int lastKeyDown;
-    internal Bitmap buffer;
-    internal Graphics g;
-    internal int totalGoldPicked;
-    internal readonly int index;
-    internal string name;
-    internal float runTime = 3;
+public class PlayerContext					//string
+{								//a Class is like an object constructor, or a "blueprint" for creating objects.
+								//Classes are user-defined data types that represent the state and behavior of an object. 
+								//The state represents the properties, 
+								//and behavior is the action that objects can perform.
+    public Room room;						//string
+    public PlayerSprite player;					//string
+    internal bool noDoor = false; 				//bool
+    internal int camX;						//integer
+    internal int camY;						//integer
+    internal readonly KeyBind[] keysdown = new KeyBind[5];	//string?
+    internal int lastKeyDown;					//integer
+    internal Bitmap buffer;					//string 
+								//Bitmap is an object used to work with images defined by pixel data
+    internal Graphics g;					//character
+								//The Graphics class provides methods for drawing objects to the display device
+    internal int totalGoldPicked;				//interger
+    internal readonly int index;				//integer
+    internal string name;					//string
+    internal float runTime = 3;					//float
 }
+
